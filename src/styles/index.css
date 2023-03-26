@@ -4,5 +4,21 @@
 
 
 .active{
-    @apply border-mydarkblue;
+    @apply border-mydarkblue-900;
+}
+
+::-webkit-scrollbar{
+    z-index: -1;
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius:9999px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d8d8d8;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #c9c9c9;
 }

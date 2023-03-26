@@ -1,6 +1,12 @@
-import Typist from 'react-typist';
 
+import React from 'react';
+import { Typewriter } from 'react-simple-typewriter'
+import { Link } from "react-router-dom"
 function Header(){
+
+
+
+  
     return (
         <div class="relative isolate px-6 pt-14 lg:px-8">
         <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
@@ -21,17 +27,31 @@ function Header(){
             </div>
         </div>
         <div class="text-center">
-            <Typist>
-            <span> First Sentence </span>
-            <Typist.Backspace count={8} delay={200} />
-            <span> Phrase </span>
-            </Typist>
+            <h1 class="text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl text-mydarkblue-900">
+                
+                <span class="font-medium">Data to </span><span> </span>
+
+                <Typewriter 
+                words={[' eat', ' sleep', ' code', ' live!']}
+                loop={false}
+                cursor
+                cursorStyle='_'
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+                />
+
+            </h1>
+            <ul  class="flex justify-center mt-8">
+                <li class="mx-6 inline-flex border-2 px-4 py-2 text-mydarkblue-900 border-mydarkblue-900 rounded-full transition duration-500 hover:cursor-pointer hover:bg-mydarkblue-900 hover:text-mylightblue-500 "><Link to="/cases">Cases </Link></li>
+                <li class="mx-6 inline-flex border-2 px-4 py-2 text-mydarkblue-900 border-mydarkblue-900 rounded-full transition duration-500 hover:cursor-pointer hover:bg-mydarkblue-900 hover:text-mylightblue-500"><Link to="/services">Services</Link></li>
+                <li class="mx-6 inline-flex border-2 px-4 py-2 text-mydarkblue-900 border-mydarkblue-900 rounded-full transition duration-500 hover:cursor-pointer hover:bg-mydarkblue-900 hover:text-mylightblue-500"><Link to="/aboutus">About us</Link></li>
+                <li class="mx-6 inline-flex border-2 px-4 py-2 text-mydarkblue-900 border-mydarkblue-900 rounded-full transition duration-500 hover:cursor-pointer hover:bg-mydarkblue-900 hover:text-mylightblue-500"><Link to="/careers">Careers </Link></li>
+                    
+            </ul>
 
             <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-            <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
-            </div>
+
         </div>
         </div>
         <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">

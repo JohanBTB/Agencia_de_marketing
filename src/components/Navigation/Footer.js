@@ -96,7 +96,7 @@ const navigation = {
 
 function Footer(){
     return (
-        <footer className="bg-mydarkblue" aria-labelledby="footer-heading">
+        <footer className="bg-mydarkblue-500" aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>
@@ -104,16 +104,16 @@ function Footer(){
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8 xl:col-span-1">
               <img
-                className="h-16 rounded-full border-2 border-mylightblue-600"
+                className="h-16 rounded-full border-2 border-mylightblue-500"
                 src={logo}
                 alt="Chilliwiny SAC"
               />
-              <p className="text-base text-mylightblue-600">
+              <p className="text-base text-mylightblue-500">
                 Don’t give up, there’s no shame in falling down! True shame is to not stand up again!
               </p>
               <div className="flex space-x-6">
                 {navigation.social.map((item) => (
-                  <a key={item.name} href={item.href} className="text-mylightblue-600 hover:text-mylightblue-600 hover:border-b-2 p-0.25 border-mydarkblue">
+                  <a key={item.name} href={item.href} className="text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                     <span className="sr-only">{item.name}</span>
                     <item.icon className="h-6 w-6" aria-hidden="true" />
                   </a>
@@ -127,7 +127,7 @@ function Footer(){
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.visitus.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-mylightblue-600 hover:text-mylightblue-900 hover:border-b-2 p-0.25 border-mydarkblue">
+                        <a href={item.href} className="text-base text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                           {item.name}
                         </a>
                       </li>
@@ -139,7 +139,7 @@ function Footer(){
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.callus.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-mylightblue-600 hover:text-mylightblue-900 hover:border-b-2 p-0.25 border-mydarkblue">
+                        <a href={item.href} className="text-base text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                           {item.name}
                         </a>
                       </li>
@@ -153,7 +153,7 @@ function Footer(){
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.services.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-mylightblue-600 hover:text-mylightblue-900 hover:border-b-2 p-0.25 border-mydarkblue">
+                        <a href={item.href} className="text-base text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                           {item.name}
                         </a>
                       </li>
@@ -165,7 +165,7 @@ function Footer(){
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-mylightblue-600 hover:text-mylightblue-900 hover:border-b-2 p-0.25 border-mydarkblue">
+                        <a href={item.href} className="text-base text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                           {item.name}
                         </a>
                       </li>
@@ -175,8 +175,8 @@ function Footer(){
               </div>
             </div>
           </div>
-          <div className="mt-12 border-t border-mylightblue-600 pt-8">
-            <p className="text-base text-mylightblue-600 xl:text-center">&copy; 2023 Chiliwinny's Company, Inc. All rights reserved.</p>
+          <div className="mt-12 border-t border-mylightblue-500 pt-8">
+            <p className="text-base text-mylightblue-500 xl:text-center">&copy; 2023 Chiliwinny's Company, Inc. All rights reserved.</p>
           </div>
         <img src={palette}>
         </img>
