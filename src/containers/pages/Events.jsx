@@ -2,12 +2,12 @@ import Navbar from "../../components/Navigation/Navbar"
 import Footer from "../../components/Navigation/Footer"
 import Layout from "../../hocs/layouts/Layout"
 
-function Blog(){
+function Events(){
     return(
         <Layout>
             <Navbar></Navbar>
             <div className="pt-36">
-                Blog
+                Events
             </div>
             
             <Footer></Footer>
@@ -15,4 +15,4 @@ function Blog(){
     )
 }
 
-export default Blog
+export default Events

@@ -49,13 +49,14 @@ export default function Incentives() {
     return (
       <div className="">
         <div className="max-w-7xl grid grid-cols-3 gap-8 ml-24 pt-7 sm:px-2  lg:px-4">
-              <h2 className="text-4xl col-span-1 font-bold tracking-tight text-mydarkblue-500">
-                We built our business on customer service
+              <h2 className="text-4xl col-span-1 font-bold tracking-tight text-mydarkblue-500 dark:text-mylightblue-900">
+              We built our game on player satisfaction
               </h2>
               <p className="mt-4 text-3xl col-span-2 text-mylightblue-500">
-                At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring
-                about that. Our new strategy is to write a bunch of things that look really good in the headlines, then
-                clarify in the small print but hope people don't actually read it.
+              From the very start, we focused on creating a game that would be enjoyable and engaging for players.
+               We believe that if we prioritize our players' experience, our game will thrive. Our team works 
+               tirelessly to create new content and features that will enhance the game's story, world, and gameplay.
+                We want our players to know that they are valued and their feedback is taken seriously.
               </p>
             </div>
         <div className="relative py-24 sm:px-2 sm:py-32 lg:px-4">
@@ -68,7 +69,7 @@ export default function Incentives() {
                     <img className="h-16 w-16" src={incentive.imageSrc} alt="" />
                   </div>
                   <div className="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
-                    <h3 className="sm:text-3xl text-2xl font-medium text-mydarkblue-500">{incentive.name}</h3>
+                    <h3 className="sm:text-3xl text-2xl font-medium text-mydarkblue-500 dark:text-mylightblue-900">{incentive.name}</h3>
                     <p className="mt-2 sm:text-xl text-lg text-mylightblue-500">{incentive.description}</p>
                   </div>
                 </div>
@@ -77,7 +78,7 @@ export default function Incentives() {
             
           </div>
         </div>
-        <img alt="a" className="absolute  right-0 top-[40%] min-w-[50%] max-w-[75%] z-[-1]" src={bocchi}></img>
+        <img alt="a" className="absolute  right-[-50%] top-[20%] min-w-[50%]  min-h-[50%] z-0" src={bocchi}></img>
       </div>
       
     )

@@ -4,12 +4,12 @@ import { Provider } from 'react-redux';
 
 import Error404 from "./containers/errors/Error404";
 import Home from "./containers/pages/Home";
-import Cases from "./containers/pages/Cases";
-import Services from "./containers/pages/Services";
-import Aboutus from "./containers/pages/About-us";
-import Blog from "./containers/pages/Blog";
-import Contacts from "./containers/pages/Contacts";
-import Careers from "./containers/pages/Careers";
+import Events from "./containers/pages/Events";
+import Shop from "./containers/pages/Shop";
+import Characters from "./containers/pages/Characters";
+import News from "./containers/pages/News";
+import Community from "./containers/pages/Community";
+import Guide from "./containers/pages/Guide";
 
 
 function App() {
@@ -19,12 +19,12 @@ function App() {
         <Routes>
           <Route path="*" element={<Error404 />} />
           <Route path="/" element={<Home />} />
-          <Route path="/cases" element={<Cases />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/about-us" element={<Aboutus />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="/careers" element={<Careers />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/characters" element={<Characters />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/guide" element={<Guide />} />
         </Routes>
       </Router>
     </Provider>

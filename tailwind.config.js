@@ -21,6 +21,11 @@ module.exports = {
         'mylightblue-500':'#9c9bf2',
         'mylightblue-700':'#827fda',
         'mylightblue-900':'#6966c2',
+        'mypink-100': '#f2dee3',
+        'mypink-300': '#e4b7c4',
+        'mypink-500': '#d68fa5',
+        'mypink-700': '#c96786',
+        'mypink-900': '#bb3e67',
         
       },
       keyframes: {

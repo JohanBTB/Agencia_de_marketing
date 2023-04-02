@@ -6,10 +6,10 @@ import loading_gif from "assets/gif/loading.gif"
 function scrollFunction() {
     if(document.getElementById('navbar')){
         if(window.scrollY < 50 || document.documentElement.scrollTop < 50){
-            document.getElementById('navbar').classList.remove('bg-white');
+            document.getElementById('navbar').classList.remove('dark:bg-gray-900');
             document.getElementById('navbar').classList.remove('shadow-mynavbar');
         }else{
-            document.getElementById('navbar').classList.add('bg-white');
+            document.getElementById('navbar').classList.add('dark:bg-gray-900');
             document.getElementById('navbar').classList.add('shadow-mynavbar');
         }
     }
@@ -46,15 +46,15 @@ function Navbar(){
                     </Link>
                     </div>
                     <div className="ml-4 mt-2 flex-shrink-0">
-                    <NavLink to="/cases" className=" text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-2   p-0.25 hover:border-mydarkblue-900 transition ease-in-out duration-1000">Cases</NavLink>
-                    <NavLink to="/services" className="text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-2  border-white p-0.25 hover:border-mydarkblue-900 transition ease-in-out duration-1000">Services</NavLink>
-                    <NavLink to="/about-us" className="text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-2  border-white p-0.25 hover:border-mydarkblue-900 transition ease-in-out duration-1000">About us</NavLink>
-                    <NavLink to="/careers" className="text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-2  border-white p-0.25 hover:border-mydarkblue-900 transition ease-in-out duration-1000">Careers</NavLink>
-                    <NavLink to="/blog" className="text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-2  border-white p-0.25 hover:border-mydarkblue-900 transition ease-in-out duration-1000">Blog</NavLink>
-                    <NavLink to="/contacts" className="text-lg font-medium leading-6 text-mylightblue-500 inline-flex mx-8 border-b-2  border-white p-0.25 hover:border-mydarkblue-900 transition ease-in-out duration-1000">Contacts</NavLink>
+                    <NavLink to="/characters" className=" text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-4   p-0.25 border-mypink-300 hover:border-mydarkblue-900 dark:hover:border-mypink-900 transition ease-in-out duration-1000">Characters</NavLink>
+                    <NavLink to="/events" className="text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-4  border-mypink-300  p-0.25 hover:border-mydarkblue-900 dark:hover:border-mypink-900  transition ease-in-out duration-1000">Events</NavLink>
+                    <NavLink to="/community" className="text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-4  border-mypink-300  p-0.25 hover:border-mydarkblue-900 dark:hover:border-mypink-900  transition ease-in-out duration-1000">Community</NavLink>
+                    <NavLink to="/events" className="text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-4  border-mypink-300  p-0.25 hover:border-mydarkblue-900 dark:hover:border-mypink-900  transition ease-in-out duration-1000">Events</NavLink>
+                    <NavLink to="/news" className="text-lg font-medium leading-6 text-mylightblue-700 inline-flex mx-8 border-b-4  border-mypink-300  p-0.25 hover:border-mydarkblue-900 dark:hover:border-mypink-900  transition ease-in-out duration-1000">News</NavLink>
+                    <NavLink to="/shop" className="text-lg font-medium leading-6 text-mylightblue-500 inline-flex mx-8 border-b-4  border-mypink-300  p-0.25 hover:border-mydarkblue-900 dark:hover:border-mypink-900  transition ease-in-out duration-1000">Shop</NavLink>
                     <button
                         type="button" 
-                        className="bg-mydarkblue-900 ml-8 relative inline-flex items-center rounded-md border border-transparent px-6 py-3 text-lg font-medium text-white shadow-sm hover:bg-mylightblue-500 hover:ring-mylightblue-500 hover:ring-2 hover:ring-offset-2 ease-in-out duration-500 focus:outline-none focus:ring-2 focus:ring-mydarkblue-900 focus:ring-offset-2"
+                        className="bg-mydarkblue-900 dark:bg-mydarkblue-500 ml-8 relative inline-flex items-center rounded-md border border-transparent px-6 py-3 text-lg font-medium text-white shadow-sm hover:bg-mylightblue-500 hover:ring-mylightblue-500 hover:ring-2 hover:ring-offset-2 ease-in-out duration-500 focus:outline-none focus:ring-2 focus:ring-mydarkblue-900 focus:ring-offset-2"
                     >
                         Hire us
                         <img 

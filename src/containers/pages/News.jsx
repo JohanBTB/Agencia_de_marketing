@@ -2,12 +2,12 @@ import Navbar from "../../components/Navigation/Navbar"
 import Footer from "../../components/Navigation/Footer"
 import Layout from "../../hocs/layouts/Layout"
 
-function Aboutus(){
+function News(){
     return(
         <Layout>
             <Navbar></Navbar>
             <div className="pt-36">
-                Aboutus
+                News
             </div>
             
             <Footer></Footer>
@@ -15,4 +15,4 @@ function Aboutus(){
     )
 }
 
-export default Aboutus
+export default News

@@ -2,12 +2,12 @@ import Navbar from "../../components/Navigation/Navbar"
 import Footer from "../../components/Navigation/Footer"
 import Layout from "../../hocs/layouts/Layout"
 
-function Contacts(){
+function Guide(){
     return(
         <Layout>
             <Navbar></Navbar>
             <div className="pt-36">
-                Contacts
+                Guide
             </div>
             
             <Footer></Footer>
@@ -15,4 +15,4 @@ function Contacts(){
     )
 }
 
-export default Contacts
+export default Guide
