@@ -56,7 +56,7 @@ const elementos =[
 
   
     return (
-        <div class="dark:bg-gray-900 bg-white py-24 m-auto sm:py-32">
+        <div class="dark:bg-gray-900 py-24 m-auto sm:py-32">
             <div class="px-6 lg:px-48 xl:px-64 m-auto">
                 <div class="mx-auto max-w-6xl lg:mx-0">
                     <h2 class="text-3xl sm:text-6xl font-bold tracking-tight text-mylightblue-900 sm:text-4xl">Elements</h2>

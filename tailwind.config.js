@@ -18,6 +18,7 @@ module.exports = {
         'mydarkblue-500':'#332f5a',
         'mydarkblue-100': '#635f9c',
         'mylightblue-100':'#b6b5ea',
+        'mylightblue-300':'#acabff',
         'mylightblue-500':'#9c9bf2',
         'mylightblue-700':'#827fda',
         'mylightblue-900':'#6966c2',
@@ -40,6 +41,7 @@ module.exports = {
       maxWidth: {
         '8xl': '88rem',
         '9xl': '96rem',
+        '10xl': '104rem',
       },
     },
      

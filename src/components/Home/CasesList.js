@@ -123,13 +123,13 @@ export default function CasesList(){
     return (
         <div class="bg-white dark:bg-gray-900">
         <div class="py-24 sm:py-32">
-            <div class=" max-w-7xl px-6 lg:px-8">
-                <div class="mx-auto max-w-2xl lg:mx-0">
-                <h2 class="text-3xl font-bold tracking-tight text-mylightblue-900 sm:text-4xl">From the blog</h2>
-                <p class=" mt-2 text-lg leading-8 text-mylightblue-700">Learn how to grow your business with our expert advice.</p>
+            <div class=" max-w-8xl mx-auto px-6 lg:px-8">
+                <div class="mx-auto  lg:mx-0">
+                <h2 class="text-2xl font-bold tracking-tight text-mylightblue-900 sm:text-5xl">Some news</h2>
+                <p class="mt-2 text-lg leading-8 text-mylightblue-700">Learn more about your favorite characters.</p>
                 </div>
-                <div class="mx-auto min-w-80 mt-10 max-w-2xl gap-y-16 gap-x-8 border-t 
-                    border-mylightblue-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none ">
+                <div class="-auto min-w-80 mt-10  gap-y-16 gap-x-8 border-t 
+                    border-mylightblue-700 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none ">
                 <Carousel 
                     itemsToScroll={1}
                     itemsToShow={3}

@@ -108,7 +108,7 @@ function Footer(){
                 src={logo}
                 alt="Chilliwiny SAC"
               />
-              <p className="text-base text-mylightblue-500">
+              <p className="text-lg text-mylightblue-500">
                 Don’t give up, there’s no shame in falling down! True shame is to not stand up again!
               </p>
               <div className="flex space-x-6">
@@ -123,11 +123,11 @@ function Footer(){
             <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-base font-medium text-mylightblue-900">Visit us</h3>
+                  <h3 className="text-lg font-medium text-mylightblue-900">Visit us</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.visitus.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
+                        <a href={item.href} className="text-lg text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                           {item.name}
                         </a>
                       </li>
@@ -135,11 +135,11 @@ function Footer(){
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-base font-medium text-mylightblue-900">Call us</h3>
+                  <h3 className="text-lg font-medium text-mylightblue-900">Call us</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.callus.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
+                        <a href={item.href} className="text-lg text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                           {item.name}
                         </a>
                       </li>
@@ -149,11 +149,11 @@ function Footer(){
               </div>
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-base font-medium text-mylightblue-900">Services</h3>
+                  <h3 className="text-lg font-medium text-mylightblue-900">Services</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.services.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
+                        <a href={item.href} className="text-lg text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                           {item.name}
                         </a>
                       </li>
@@ -161,11 +161,11 @@ function Footer(){
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-base font-medium text-mylightblue-900">Company</h3>
+                  <h3 className="text-lg font-medium text-mylightblue-900">Company</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-base text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
+                        <a href={item.href} className="text-lg text-mylightblue-500 hover:text-mylightblue-100 hover:border-b-2 p-0.25 border-mydarkblue-500">
                           {item.name}
                         </a>
                       </li>
@@ -176,7 +176,7 @@ function Footer(){
             </div>
           </div>
           <div className="mt-12 border-t border-mylightblue-500 pt-8">
-            <p className="text-base text-mylightblue-500 xl:text-center">&copy; 2023 Chiliwinny's Company, Inc. All rights reserved.</p>
+            <p className="text-lg text-mylightblue-500 xl:text-center">&copy; 2023 Chiliwinny's Company, Inc. All rights reserved.</p>
           </div>
         <img src={palette}>
         </img>

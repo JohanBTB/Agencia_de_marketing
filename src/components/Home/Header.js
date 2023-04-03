@@ -20,14 +20,14 @@ function Header(){
             </defs>
         </svg>
         </div>
-        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="mx-auto max-w-xl py-32 sm:py-48 lg:py-56">
         <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div class="relative rounded-full py-1 px-3 text-sm leading-6 text-blue-500 dark:text-mypink-300 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            <div class="relative rounded-full py-1 px-3 text-lg leading-6 text-blue-500 dark:text-mypink-300 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
             Announcing our next update. <a href="#" class="font-semibold text-indigo-600 dark:text-mypink-700"><span class="absolute inset-0 " aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
             </div>
         </div>
         <div class="text-center">
-            <h1 class="text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl text-mypink-500 dark:text-mypink-900">
+            <h1 class="sm:text-3xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl text-mypink-500 dark:text-mypink-900 px-10">
                 
                 <span class="font-medium">Data to </span><span> </span>
 
@@ -42,7 +42,7 @@ function Header(){
                 />
 
             </h1>
-            <ul  class="flex justify-center mt-8 text-mydarkblue-900 dark:text-mypink-100">
+            <ul  class="flex text-lg justify-center mt-8 text-mydarkblue-900 dark:text-mypink-100">
                 <li class="mx-6 inline-flex border-2 px-4 py-2 border-mydarkblue-900 dark:border-mypink-900 rounded-full transition duration-500 hover:cursor-pointer hover:bg-mydarkblue-900 dark:hover:bg-mypink-900 hover:text-mydarkblue-900 dark:hover:text-pink-100"><Link to="/cases">Cases </Link></li>
                 <li class="mx-6 inline-flex border-2 px-4 py-2 border-mydarkblue-900 dark:border-mypink-900 rounded-full transition duration-500 hover:cursor-pointer hover:bg-mydarkblue-900 dark:hover:bg-mypink-900 hover:text-mydarkblue-900 dark:hover:text-pink-100"><Link to="/services">Services</Link></li>
                 <li class="mx-6 inline-flex border-2 px-4 py-2 border-mydarkblue-900 dark:border-mypink-900 rounded-full transition duration-500 hover:cursor-pointer hover:bg-mydarkblue-900 dark:hover:bg-mypink-900 hover:text-mydarkblue-900 dark:hover:text-pink-100"><Link to="/aboutus">About us</Link></li>
@@ -50,7 +50,7 @@ function Header(){
                     
             </ul>
 
-            <p class="mt-6 text-lg leading-8 text-blue-500 dark:text-mypink-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+            <p class="mt-6 text-md leading-8 text-blue-500 dark:text-mypink-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
 
         </div>
         </div>

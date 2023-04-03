@@ -52,7 +52,7 @@ export default function Incentives() {
               <h2 className="text-4xl col-span-1 font-bold tracking-tight text-mydarkblue-500 dark:text-mylightblue-900">
               We built our game on player satisfaction
               </h2>
-              <p className="mt-4 text-3xl col-span-2 text-mylightblue-500">
+              <p className="mt-4 text-2xl col-span-2 text-mylightblue-500">
               From the very start, we focused on creating a game that would be enjoyable and engaging for players.
                We believe that if we prioritize our players' experience, our game will thrive. Our team works 
                tirelessly to create new content and features that will enhance the game's story, world, and gameplay.
@@ -60,7 +60,7 @@ export default function Incentives() {
               </p>
             </div>
         <div className="relative py-24 sm:px-2 sm:py-32 lg:px-4">
-          <div className="flex mx-auto  px-4 lg:max-w-none">
+          <div className="flex mx-auto  px-4 lg:max-w-7xl">
             
             <div className="mt-16 max-w-4xl grid sm:grid-cols-2 grid-cols-1 gap-y-10 gap-x-8">
               {incentives.map((incentive) => (

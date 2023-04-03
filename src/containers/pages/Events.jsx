@@ -1,16 +1,27 @@
 import Navbar from "../../components/Navigation/Navbar"
 import Footer from "../../components/Navigation/Footer"
 import Layout from "../../hocs/layouts/Layout"
+import Header from "../../components/Events/Header"
+import CollaborationList from "../../components/Events/CollaborationList"
+import BannerList from "../../components/Events/BannerList"
+
+import { useEffect } from "react"
 
 function Events(){
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
     return(
         <Layout>
             <Navbar></Navbar>
-            <div className="pt-36">
-                Events
+            <div className="m-auto bg-white dark:bg-gray-900 z-[-1]">
+                <div className="pt-36">
+                    <Header />
+                </div>
             </div>
-            
-            <Footer></Footer>
+            <CollaborationList />
+            <BannerList />
+            <Footer/>            
         </Layout>
     )
 }

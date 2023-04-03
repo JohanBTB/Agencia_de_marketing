@@ -4,7 +4,11 @@ import Layout from "../../hocs/layouts/Layout";
 import Header from "../../components/Characters/Header";
 import CharactersList from "../../components/Characters/CharactersList";
 import Elements from "../../components/Characters/Elements";
+import { useEffect } from "react";
 function Characters(){
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
     return(
         <Layout>
             <Navbar></Navbar>
