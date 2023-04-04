@@ -2,7 +2,7 @@ export default function BannerCard({banner, index}){
     const bg_color=  "linear-gradient(to bottom, "+banner.bg1+ ", " + banner.bg2+ ")";
     return(
         <div 
-            class="max-w-sm  lg:max-w-6xl lg:flex  border-mylightblue-500 border-2 my-8   mx-16  lg:rounded-r hover:border-mylightblue-900 hover:border-4 duration-500" style={{ backgroundImage: bg_color}}>
+            class="max-w-sm  lg:max-w-6xl lg:flex  border-mylightblue-500 border-2 my-8 mx-auto  lg:rounded-r hover:border-mylightblue-900 hover:border-4 duration-500" style={{ backgroundImage: bg_color}}>
 
             
             <div class="lg:h-48 lg:w-48   min-h-40 h-full flex-none  rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">

@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 function Layout({children}){
 
     return(
-        <div>
+        <div class="min-w-[30rem]">
             {children}
         </div>
     )

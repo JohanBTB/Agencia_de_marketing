@@ -15,6 +15,7 @@ module.exports = {
         'myblue-700': '#2B0D8C',
         'myblue-900': '#1D075F',
         'mydarkblue-900':'#1f1c3d',
+        'mydarkblue-700':'#28254b',
         'mydarkblue-500':'#332f5a',
         'mydarkblue-100': '#635f9c',
         'mylightblue-100':'#b6b5ea',

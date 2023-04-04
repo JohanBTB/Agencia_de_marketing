@@ -63,7 +63,7 @@ function Header(){
                 <div class="mt-16">
                     {medias.map((media, index)=> {
                         return(
-                            <a href={media.url}class="inline-block m-4 w-12 md:w-14 xl:w-16">
+                            <a href={media.url}class="inline-block m-4 w-10 md:w-12 xl:w-14 hover:scale-90">
                                 <img src={media.lightImage} alt = {media.name} class="inline-block dark:hidden"/>
 
                                 <img src={media.darkImage} alt = {media.name} class="hidden dark:inline-block"/>

@@ -14,7 +14,7 @@ function Home(){
             <Navbar></Navbar>
             <Header></Header>
             <div className="m-auto bg-white dark:bg-gray-900 z-[-1]">
-                <div className="relative pt-36 max-w-sm sm:max-w-xl md:max-w-5xl lg:max-w-6xl xl:max-w-10xl m-auto">
+                <div className="relative pt-36  m-auto">
                     Home
                     <Incentives/>
                     <CasesList/>

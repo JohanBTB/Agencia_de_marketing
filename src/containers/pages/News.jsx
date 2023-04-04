@@ -2,7 +2,8 @@ import Navbar from "../../components/Navigation/Navbar"
 import Footer from "../../components/Navigation/Footer"
 import Layout from "../../hocs/layouts/Layout"
 import Header from "../../components/News/Header"
-
+import NewsList from "../../components/News/NewsList"
+import CharacterList from "../../components/News/CharacterList"
 import { useEffect } from "react"
 function News(){
     useEffect(()=>{
@@ -17,7 +18,8 @@ function News(){
                     
                 </div>
             </div>
-
+            <CharacterList />
+            <NewsList />
             <Footer/>
             
         </Layout>
