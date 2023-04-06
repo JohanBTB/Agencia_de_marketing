@@ -2,7 +2,7 @@ export default function MeetCard({data, index}){
     return (
                 
         
-        <div id={index} class="max-w-sm border border-myblue-900 dark:border-mypink-900 rounded-lg shadow dark:bg-mypink-900 "
+        <div id={index} class="border border-myblue-900 dark:border-mypink-900 rounded-lg shadow dark:bg-mypink-900 "
         onMouseEnter={()=>{
                         const animeImg = document.getElementById(`anime${index}`);
                         const characterImg = document.getElementById(`character${index}`);

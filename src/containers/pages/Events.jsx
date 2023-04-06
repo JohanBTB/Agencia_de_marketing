@@ -15,9 +15,8 @@ function Events(){
         <Layout>
             <Navbar></Navbar>
             <div className="m-auto bg-white dark:bg-gray-900 z-[-1]">
-                <div className="pt-36">
-                    <Header />
-                </div>
+                <Header />
+                
             </div>
             <CollaborationList />
             <BannerList />

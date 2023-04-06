@@ -48,11 +48,11 @@ const incentives = [
 export default function Incentives() {
     return (
       <div className="relative md:py-10 lg:py-32 xl:py-40 bg-gray-900 ">
-        <div className="max-w-7xl grid grid-cols-3 gap-8 ml-24 pt-7 sm:px-2  lg:px-4 z-10">
-          <h2 className="text-4xl col-span-1 font-bold tracking-tight text-mydarkblue-500 dark:text-mylightblue-900">
+        <div className="max-w-7xl grid grid-cols-4 gap-8 ml-24 pt-24  sm:px-2  lg:px-4 z-10">
+          <h2 className="text-3xl col-span-2 sm:col-span-1 font-bold tracking-tight text-mydarkblue-500 dark:text-mylightblue-900">
               We built our game on player satisfaction
           </h2>
-          <p className="mt-4 text-2xl col-span-2 text-mylightblue-500">
+          <p className="mt-4 text-xl col-span-2 text-mylightblue-500">
              From the very start, we focused on creating a game that would be enjoyable and engaging for players.
                We believe that if we prioritize our players' experience, our game will thrive. Our team works 
                tirelessly to create new content and features that will enhance the game's story, world, and gameplay.

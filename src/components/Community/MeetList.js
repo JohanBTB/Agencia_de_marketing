@@ -61,12 +61,12 @@ export default function MeetList(){
     return (
         <div class="bg-white dark:bg-mydarkblue-900">
         <div class="py-24 m-auto sm:py-32">
-            <div class="lg:px-48 xl:px-64 m-auto">
+            <div class="lg:px-48 xl:px-64 md:px-24 sm:px-10 m-auto">
                 <div class="mx-auto max-w-2xl lg:mx-0">
                     <h2 class="text-6xl font-bold tracking-tight text-myblue-700 dark:text-mypink-900 sm:text-4xl">Meet my favourite animes</h2>
                 </div>
                 <div class=" w-full mt-10 m-auto gap-x-8 border-t border-myblue-700 dark:border-mypink-900 pt-10 sm:mt-16 sm:pt-16 ">
-                    <div class="grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 xl:grid-cols-3 gap-8 mx-auto">
+                    <div class="grid md:grid-cols-2  sm:grid-cols-1 xl:grid-cols-3 gap-8 px-10 mx-auto ">
                         {animes.map((anime,index) => (
                             <MeetCard data = {anime} index = {index} />
                         ))}

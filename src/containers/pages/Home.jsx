@@ -4,21 +4,27 @@ import Header from "../../components/Home/Header"
 import Incentives from "../../components/Home/Incentives"
 import Layout from "../../hocs/layouts/Layout"
 import CasesList from "../../components/Home/CasesList"
-import { useEffect } from "react"
+import { useEffect } from "react";
+// import bg_main from "../../assets/sonido/bg_main.mp3";
 function Home(){
-    useEffect(()=>{
-        window.scrollTo(0,0)
-    },[])
+    // useEffect(() => {
+    //     const audio = new Audio(bg_main);
+    //     audio.play();
+    //     return () => {
+    //       audio.pause();
+    //       audio.currentTime = 0;
+    //     };
+    //   }, []);
+    // useEffect(()=>{
+    //     window.scrollTo(0,0)
+    // },[])
     return(
         <Layout>
             <Navbar></Navbar>
             <Header></Header>
-            <div className="m-auto bg-white dark:bg-gray-900 z-[-1]">
-                <div className="relative pt-36  m-auto">
-                    Home
+            <div className=" bg-white dark:bg-gra-900 z-[-1]">
                     <Incentives/>
                     <CasesList/>
-                </div>
             </div>
             
             <Footer></Footer>

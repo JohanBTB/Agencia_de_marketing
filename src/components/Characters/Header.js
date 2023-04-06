@@ -12,7 +12,7 @@ function Header(){
         <section class="pt-32  pb-64 sm:pb-4 relative bg-white dark:bg-gray-900 sm:flex-nowrap ">
             
             <div class="w-4/5  relative mx-auto h-[15rem] xl:h-screen lg:h-[50.25rem] md:h-[30rem] text-myblue-300 dark:text-mylightblue-100"  >
-                <img src={main} class="z-0 absolute max-h-[83%] hidden sm:block xl:h-[71.25rem] lg:h-[50.25rem]  overflow-x-hidden" />
+                <img src={main} class="z-0 absolute max-h-[83%] hidden sm:block md:opacity-50 right-0 opacity-25 xl:h-[71.25rem] lg:h-[50.25rem]  overflow-x-hidden" />
                 <div class="absolute mt-10 mr-auto place-self-center  z-10">
                     <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-mylightblue-700">Join the adventure in Teyvat</h1>
                     <p class="max-w-2xl mb-6 font-lightlg:mb-8 md:text-lg lg:text-xl ">Explore a vast world of elemental magic and mythical creatures, team up with friends to conquer challenging bosses, and uncover the mysteries of Genshin Impact.</p>
