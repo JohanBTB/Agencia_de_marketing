@@ -1,33 +1,44 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import store from "store";
 import { Provider } from 'react-redux';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import Error404 from "./containers/errors/Error404";
-import Home from "./containers/pages/Home";
-import Events from "./containers/pages/Events";
-import Contact from "./containers/pages/Contact";
-import Characters from "./containers/pages/Characters";
-import News from "./containers/pages/News";
-import Community from "./containers/pages/Community";
-import Guide from "./containers/pages/Guide";
+
+import AnimatedRoutes from './AnimatedRoutes';
 
 
 function App() {
+
   return (
-    <Provider store={store}>
-      <Router>
-        <Routes>
-          <Route path="*" element={<Error404 />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/characters" element={<Characters />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/community" element={<Community />} />
-          <Route path="/guide" element={<Guide />} />
-        </Routes>
-      </Router>
-    </Provider>
+    <HelmetProvider>
+      <Helmet>
+        <title> Chilli winy | My Page</title>
+        <meta name="description" content="Discover the latest news and updates on Genshin Impact and your favorite anime series" />
+        <meta name="keyboard" content="anime genshin impact naruto otaku" />
+        <meta name="robots" content="all"/>
+        <meta name="author" content="Chillwiny"/>                  
+        <meta name="publisher" content="Chillwiny"/>
+
+        {/* Social Media Tags */}
+        <meta property='og:title' content="Chilli winy | My Page "/>
+        <meta property='og:description' content="Discover the latest news and updates on Genshin Impact and your favorite anime series" />
+        <meta property='og:url' content="www.chilliwiny.com" />
+        <meta property="og:image" content="https://bafybeidd76sf3yb66upmipvcwylft42ryg6mm2264muw72oy56323rsc4i.ipfs.w3s.link/paimon.png" />
+
+        {/* Twitter Tags */}
+        <meta property='twitter:title' content="Chilli winy | My Page "/>
+        <meta property='twitter:description' content="Discover the latest news and updates on Genshin Impact and your favorite anime series" />
+        <meta property="twitter:image" content="https://bafybeidd76sf3yb66upmipvcwylft42ryg6mm2264muw72oy56323rsc4i.ipfs.w3s.link/paimon.png" />
+
+        <link rel="canonical" href="www.chilliwiny.com"></link>
+      </Helmet>
+      <Provider store={store}>
+        <Router>
+          <AnimatedRoutes />  
+
+        </Router>
+      </Provider>
+    </HelmetProvider>
   );
 }
 
